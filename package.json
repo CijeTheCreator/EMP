@@ -1,5 +1,5 @@
 {
-  "name": "job-board-back-end-api",
+  "name": "Activity Tracker Backend API",
   "version": "1.0.0",
   "description": "REST API for a job listing application",
   "main": "dist/index.js",
@@ -8,12 +8,14 @@
     "start": "node dist/index.js",
     "dev": "nodemon app/index.ts"
   },
-  "author": "Sanuja Tharinda",
+  "author": "Chijioke Osadebe",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^6.0.1",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "prisma": "^6.0.1",
     "winston": "^3.11.0"
   },
   "devDependencies": {
